@@ -1,5 +1,5 @@
 body {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -25,12 +25,13 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #2E2F42;
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
 }
 .span-logo {
-    color: #4D5AE5
+    color: #2E2F42;
 }
 .nav-panel .link {
     font-weight: 500;
@@ -39,7 +40,9 @@ h3 {
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.nav-panel .link:hover,
+.nav-panel .link:hover{
+    color: #4D5AE5;
+}
 .nav-panel .link:focus {
     color: #4D5AE5;
 }
@@ -54,23 +57,27 @@ h3 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
-.address-info .link-inform:hover,
+.address-info .link-inform:hover {
+    color: #4D5AE5;
+}
 .address-info .link-inform:focus {
     color: #4D5AE5;
 }
 .section-first {
     background-color: #2E2F42;
 }
-.section-first h1 {
+.section-first .first-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0,02em;
     text-align: center;
     color: #FFFFFF;
 }
 .button-service {
+    font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;   
@@ -79,22 +86,43 @@ h3 {
     color: #FFFFFF;
     cursor: pointer;
 }
-.section-team h2{
+.button-service:hover {
+    color: #404BBF;
+}
+.button-service:focus {
+    color: #404BBF;
+}
+.section-business .section-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+
+}
+.section-business .section-business-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.section-team .section-team-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
 .section-team {
     text-align: center;
+    background-color: #F4F4FD;
 }
 
 .section-portfolio h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
