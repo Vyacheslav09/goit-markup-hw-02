@@ -74,7 +74,7 @@ h3 {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
 }
@@ -110,18 +110,27 @@ h3 {
 .section-team .section-team-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+    font-size: 20px;
 }
 .section-team {
     text-align: center;
+    background-color: #F4F4FD;
+}
+.section-team .section-team-name {
     background-color: #FFFFFF;
 }
 .section-team .team-name  {
     font-size: 16px;
+}
+.section-team .team-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 .section-portfolio .title-portfolio {
     font-weight: 700;
@@ -131,6 +140,14 @@ h3 {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+
+}
+.section-portfolio .title-portfolio-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .footer {
     background-color: #2E2F42;
