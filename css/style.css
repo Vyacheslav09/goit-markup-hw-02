@@ -110,24 +110,25 @@ h3 {
 .section-team .section-team-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
-    font-size: 20px;
+    
 }
 .section-team {
     text-align: center;
     background-color: #F4F4FD;
 }
-.section-team .section-team-name {
+.section-team .section-team-name .{
     background-color: #FFFFFF;
 }
 .section-team .team-name  {
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 1.2;
 }
-.section-team .team-text {
+.section-team .team-name-text {
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
